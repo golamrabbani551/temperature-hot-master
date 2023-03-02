@@ -5,7 +5,6 @@ fetch(url)
 .then( data => searchField(data))
 }
 const searchField = (country) =>{
-    console.log(country)
     const countryname = document.getElementById('country-name')
     countryname.innerText = country.name;
     const countryTemperature = document.getElementById('country-temp');
